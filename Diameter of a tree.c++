@@ -26,6 +26,7 @@
           if(x!=par)
           {   dfs(x,cur);
               g[cur]=max(g[x]+1,g[cur]);
+              f[cur]=max(f[x],f[curr]);
               if(g[x]+1>mx1)
               {
                 mx2=mx1;
@@ -38,7 +39,7 @@
             }
         }  
 
-       f[cur]=mx1+mx2;
+       f[cur]=max(f[cur],mx1+mx2);
 
   }
 
