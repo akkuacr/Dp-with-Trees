@@ -1,5 +1,5 @@
 // Lca using Two pointers
-//this is basically the brute force approach
+//this is basically the brute force approach is here
 
   #include<bits/stdc++.h>
  
